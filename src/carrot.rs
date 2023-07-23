@@ -1,6 +1,5 @@
 use anyhow::Error;
 use async_trait::async_trait;
-use carrot_sdk::data::Data;
 use carrot_sdk::{Request, SetData};
 use carrot_sdk::result::Response;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
